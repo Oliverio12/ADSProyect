@@ -30,3 +30,4 @@ C:\Users\rodri\OneDrive\Escritorio\Repositorios\LabADS\ADSProyect\ADSProyect\obj
 C:\Users\rodri\OneDrive\Escritorio\Repositorios\LabADS\ADSProyect\ADSProyect\obj\Debug\net8.0\ADSProyect.pdb
 C:\Users\rodri\OneDrive\Escritorio\Repositorios\LabADS\ADSProyect\ADSProyect\obj\Debug\net8.0\ADSProyect.genruntimeconfig.cache
 C:\Users\rodri\OneDrive\Escritorio\Repositorios\LabADS\ADSProyect\ADSProyect\obj\Debug\net8.0\ref\ADSProyect.dll
+C:\Users\rodri\OneDrive\Escritorio\Repositorios\LabADS\ADSProyect\ADSProyect\obj\Debug\net8.0\ADSProyect.sourcelink.json
