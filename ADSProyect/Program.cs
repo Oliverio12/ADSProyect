@@ -16,6 +16,7 @@ builder.Services.AddSingleton<IEstudiante, EstudianteRepository>();
 builder.Services.AddSingleton<ICarrera, CarreraRepository>();
 builder.Services.AddSingleton<IMaterias, MateriaRepository>();
 builder.Services.AddSingleton<IProfesor, ProfesorRepository>();
+builder.Services.AddSingleton<IGrupos, GruposRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
