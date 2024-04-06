@@ -100,6 +100,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.grupos.ActualizarGrupo(IdGrupo, grupos);
                 if (contador > 0)
                 {
@@ -129,6 +133,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.grupos.AgregarGrupo(grupos);
                 if (contador > 0)
                 {
