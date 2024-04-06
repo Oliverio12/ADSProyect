@@ -1,10 +1,19 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace ADSProyect.Models
 {
     public class Carrera
     {
         public int IdCarrera { get; set; }
+
+        [Required (ErrorMessage = "Este campo es requerido")]
+        [MaxLength(length: 3, ErrorMessage = "La longitud del campo no puede ser mayor a 3 caracteres. ")]
         public string Codigo { get; set; }
+
+        [Required (ErrorMessage = "Este campo es requerido")]
+        [MaxLength (length:40 ,ErrorMessage = "La longitud del campo no puede ser mayor a 40 caracteres")]
         public string Nombre { get; set; }
+   
     }
 }
