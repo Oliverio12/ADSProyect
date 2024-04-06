@@ -1,4 +1,5 @@
-﻿namespace ADSProyect.Models
+﻿
+namespace ADSProyect.Models
 {
     public class Carrera
     {

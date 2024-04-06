@@ -19,10 +19,16 @@ namespace ADSProyect.Controllers
             this.estudiante = estudiante;
         }
 
+
         [HttpPost("agregarEstudiante")]
         public ActionResult<string> AgregarEstudiante([FromBody] Estudiante estudiante)
         {
-            try { 
+            try {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
             int contador = this.estudiante.AgregarEstudiante(estudiante);
                 if(contador > 0) {
                     pCodRespuesta = Constans.COD_EXITO;
@@ -50,6 +56,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.estudiante.ActualizarEstudiante(idEstudiante, estudiante);
                 if (contador > 0)
                 {
