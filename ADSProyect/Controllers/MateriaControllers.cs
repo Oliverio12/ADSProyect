@@ -101,6 +101,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.materias.Actualizarmateria(idMateria, materia);
                 if (contador > 0)
                 {
@@ -130,6 +134,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.materias.AgregarMateria(materia);
                 if (contador > 0)
                 {
