@@ -100,6 +100,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.profesor.ActualizarProfesor(IdProfesor, profesor);
                 if (contador > 0)
                 {
@@ -129,6 +133,10 @@ namespace ADSProyect.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 int contador = this.profesor.AgregarProfesor(profesor);
                 if (contador > 0)
                 {
