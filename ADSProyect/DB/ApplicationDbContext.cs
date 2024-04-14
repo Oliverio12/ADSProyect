@@ -7,6 +7,7 @@ namespace ADSProyect.DB
     {
         public DbSet<Estudiante> Estudiante { get; set; }
         public DbSet<Materias> Materias { get; set; }
+        public DbSet<Profesor> Profesor { get; set; }
 
     }
 }

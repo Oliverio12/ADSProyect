@@ -1,7 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ADSProyect.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace ADSProyect.Models
 {
+    [PrimaryKey(nameof(IdProfesor))]
     public class Profesor
     {
         public int IdProfesor { get; set; }
