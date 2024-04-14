@@ -1,8 +1,11 @@
 ﻿
+using ADSProyect.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace ADSProyect.Models
 {
+    [PrimaryKey(nameof(IdCarrera))]
     public class Carrera
     {
         public int IdCarrera { get; set; }
