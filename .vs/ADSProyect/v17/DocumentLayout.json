@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\migrations\\20240414042644_materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\migrations\\20240414042644_materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\migrations\\20240413180718_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\migrations\\20240413180718_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\migrations\\20240413180718_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\migrations\\20240413180718_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,50 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "20240414042644_Materias.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Migrations\\20240414042644_Materias.cs",
+              "RelativeDocumentMoniker": "ADSProyect\\Migrations\\20240414042644_Materias.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Migrations\\20240414042644_Materias.cs",
+              "RelativeToolTip": "ADSProyect\\Migrations\\20240414042644_Materias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T04:26:45.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grupos.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Grupos.cs",
+              "RelativeDocumentMoniker": "ADSProyect\\Models\\Grupos.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Grupos.cs",
+              "RelativeToolTip": "ADSProyect\\Models\\Grupos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T04:24:50.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Materias.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Materias.cs",
+              "RelativeDocumentMoniker": "ADSProyect\\Models\\Materias.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Materias.cs",
+              "RelativeToolTip": "ADSProyect\\Models\\Materias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T04:24:48.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20240413180718_Estudiantes.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
               "RelativeDocumentMoniker": "ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
               "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
               "RelativeToolTip": "ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAkAAAAaAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T18:07:18.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\DB\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ADSProyect\\DB\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\DB\\ApplicationDbContext.cs",
               "RelativeToolTip": "ADSProyect\\DB\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T17:39:33.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Estudiante.cs",
               "RelativeDocumentMoniker": "ADSProyect\\Models\\Estudiante.cs",
               "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Estudiante.cs",
               "RelativeToolTip": "ADSProyect\\Models\\Estudiante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T17:36:38.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Program.cs",
               "RelativeDocumentMoniker": "ADSProyect\\Program.cs",
@@ -81,12 +132,11 @@
               "RelativeToolTip": "ADSProyect\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T17:23:27.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T17:23:27.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ADSProyect\\appsettings.Development.json",
@@ -94,8 +144,7 @@
               "RelativeToolTip": "ADSProyect\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-13T17:20:13.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T17:20:13.901Z"
             }
           ]
         }
