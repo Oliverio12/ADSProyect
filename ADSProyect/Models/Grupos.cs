@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using ADSProyect.Validations;
 namespace ADSProyect.Models
 {
     public class Grupos
     {
+        [CustomRequired(ErrorMessage = "Este campo es requerido y debe ser mayor que 0")]
         public int IdGrupo { get; set; }
         [Required(ErrorMessage = "El campo es requerido")]
         public int IdCarrera { get; set; }

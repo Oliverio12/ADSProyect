@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\controllers\\gruposcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\controllers\\gruposcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\interfaces\\igrupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\interfaces\\igrupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\grupos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\controllers\\estudiantecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\controllers\\estudiantecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\controllers\\profesorescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\controllers\\profesorescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\db\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\repositories\\gruposrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\repositories\\gruposrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\migrations\\20240413180718_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\migrations\\20240413180718_estudiantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|c:\\users\\rodri\\onedrive\\escritorio\\repositorios\\labads\\adsproyect\\adsproyect\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{318DE162-3AEE-43FB-BBF8-560E80C0B5D2}|ADSProyect\\ADSProyect.csproj|solutionrelative:adsproyect\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,131 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Materias.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Materias.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Models\\Materias.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Materias.cs",
-              "RelativeToolTip": "ADSProyect\\Models\\Materias.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "20240413180718_Estudiantes.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
+              "RelativeDocumentMoniker": "ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
+              "RelativeToolTip": "ADSProyect\\Migrations\\20240413180718_Estudiantes.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:41:24.499Z",
+              "WhenOpened": "2024-04-13T18:07:18.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstudianteControllers.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Controllers\\EstudianteControllers.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Controllers\\EstudianteControllers.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Controllers\\EstudianteControllers.cs",
-              "RelativeToolTip": "ADSProyect\\Controllers\\EstudianteControllers.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBoAAAAPAAAA",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\DB\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ADSProyect\\DB\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\DB\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ADSProyect\\DB\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:38:42.22Z",
+              "WhenOpened": "2024-04-13T17:39:33.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfesoresControllers.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Controllers\\ProfesoresControllers.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Controllers\\ProfesoresControllers.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Controllers\\ProfesoresControllers.cs",
-              "RelativeToolTip": "ADSProyect\\Controllers\\ProfesoresControllers.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAkwGkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:38:06.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Profesor.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Profesor.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Models\\Profesor.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Profesor.cs",
-              "RelativeToolTip": "ADSProyect\\Models\\Profesor.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:35:10.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Estudiante.cs",
               "RelativeDocumentMoniker": "ADSProyect\\Models\\Estudiante.cs",
               "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Estudiante.cs",
               "RelativeToolTip": "ADSProyect\\Models\\Estudiante.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAoAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T17:06:19.492Z"
+              "WhenOpened": "2024-04-13T17:36:38.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Program.cs",
               "RelativeDocumentMoniker": "ADSProyect\\Program.cs",
               "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Program.cs",
               "RelativeToolTip": "ADSProyect\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T18:04:16.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GruposControllers.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Controllers\\GruposControllers.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Controllers\\GruposControllers.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Controllers\\GruposControllers.cs",
-              "RelativeToolTip": "ADSProyect\\Controllers\\GruposControllers.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAgwIoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T17:59:30.038Z",
+              "WhenOpened": "2024-04-13T17:23:27.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GruposRepository.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Repositories\\GruposRepository.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Repositories\\GruposRepository.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Repositories\\GruposRepository.cs",
-              "RelativeToolTip": "ADSProyect\\Repositories\\GruposRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T17:45:46.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IGrupos.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Interfaces\\IGrupos.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Interfaces\\IGrupos.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Interfaces\\IGrupos.cs",
-              "RelativeToolTip": "ADSProyect\\Interfaces\\IGrupos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T17:44:05.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Grupos.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Grupos.cs",
-              "RelativeDocumentMoniker": "ADSProyect\\Models\\Grupos.cs",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\Models\\Grupos.cs",
-              "RelativeToolTip": "ADSProyect\\Models\\Grupos.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA0AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T17:38:44.22Z",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ADSProyect\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Escritorio\\Repositorios\\LabADS\\ADSProyect\\ADSProyect\\appsettings.Development.json",
+              "RelativeToolTip": "ADSProyect\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T17:20:13.901Z",
               "EditorCaption": ""
             }
           ]
