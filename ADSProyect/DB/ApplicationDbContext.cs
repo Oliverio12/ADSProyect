@@ -9,6 +9,6 @@ namespace ADSProyect.DB
         public DbSet<Materias> Materias { get; set; }
         public DbSet<Profesor> Profesor { get; set; }
         public DbSet<Carrera> Carrera { get; set; }
-
+        public DbSet<Grupos> Grupo { get; set; }
     }
 }

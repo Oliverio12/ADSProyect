@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using ADSProyect.Validations;
+using Microsoft.EntityFrameworkCore;
 namespace ADSProyect.Models
 {
+    [PrimaryKey(nameof(IdGrupo))]
     public class Grupos
     {
         [CustomRequired(ErrorMessage = "Este campo es requerido y debe ser mayor que 0")]
