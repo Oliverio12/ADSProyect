@@ -64,10 +64,10 @@ export class AgregarEstudianteComponent implements OnInit {
           next: (temp) => {
             this.formEstudiante = temp;
             // Se rellena la informacion del formulario
-            this.form.controls['nombresEstudiante'].setValue(
+            this.form.controls['nombreEstudiante'].setValue(
               this.formEstudiante.nombresEstudiante
             );
-            this.form.controls['apellidosEstudiante'].setValue(
+            this.form.controls['apellidoEstudiante'].setValue(
               this.formEstudiante.apellidosEstudiante
             );
             this.form.controls['codigoEstudiante'].setValue(
@@ -86,9 +86,9 @@ export class AgregarEstudianteComponent implements OnInit {
   onSubmit() {
     // Asignacion de valores
     this.formEstudiante.nombresEstudiante =
-      this.form.get('nombresEstudiante')?.value;
+      this.form.get('nombreEstudiante')?.value;
     this.formEstudiante.apellidosEstudiante = this.form.get(
-      'apellidosEstudiante'
+      'apellidoEstudiante'
     )?.value;
     this.formEstudiante.codigoEstudiante =
       this.form.get('codigoEstudiante')?.value;

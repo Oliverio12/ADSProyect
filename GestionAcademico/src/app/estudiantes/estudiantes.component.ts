@@ -86,8 +86,8 @@ modo edicion).*/
     // Primero se valida que exista un valor (es decir que sea distinto de nulo)
     if (valor) {
       // Como puede notar, ahora se anexa un valor a la redireccion. Ej.
-      /agregarEstudiante/3;
-      this.router.navigate(['/agregarEstudiante', valor]);
+      //agregarEstudiante/3;
+      this.router.navigate(['/agregarEstudiante/', valor]);
     }
   }
 }
