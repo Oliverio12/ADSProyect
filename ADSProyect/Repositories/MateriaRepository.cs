@@ -1,11 +1,13 @@
-﻿using ADSProyect.Interfaces;
+﻿using ADSProyect.DB;
+using ADSProyect.Interfaces;
+using ADSProyect.Migrations;
 using ADSProyect.Models;
 
 namespace ADSProyect.Repositories
 {
     public class MateriaRepository : IMaterias
     {
-        private List<Materias> listMaterias = new List<Materias>
+        /*private List<Materias> listMaterias = new List<Materias>
         {
             new Materias
             {
@@ -22,12 +24,20 @@ namespace ADSProyect.Repositories
                 idMateria = 3,
                 nombreMateria = "Desarrollo de dispositivos moviles"
             }
-        };
-        public int Actualizarmateria(int idMateria, Materias materia)
+        };*/
+
+        private readonly ApplicationDbContext applicationDBContext;
+
+        public MateriaRepository(ApplicationDbContext applicationDbContext)
+        {
+            this.applicationDBContext = applicationDbContext;
+        }
+     
+        public int Actualizarmateria(int idMateria, Models.Materias materia)
         {
             try
             {
-                int bandera = 0;
+                /*int bandera = 0;
                 int index = listMaterias.FindIndex(tmp => tmp.idMateria == idMateria);
 
                 if (index > 0)
@@ -38,25 +48,36 @@ namespace ADSProyect.Repositories
                 else
                 {
                     bandera = -1;
-                }
+                }*/
+                var item = applicationDBContext.Materias.SingleOrDefault(x => x.idMateria == idMateria);
+                applicationDBContext.Entry(item).CurrentValues.SetValues(materia);
+                applicationDBContext.SaveChanges();
 
-                return bandera;
+                return idMateria;
 
-            }catch (Exception )
+            }
+            catch (Exception)
             {
                 throw;
             }
         }
 
-        public int AgregarMateria(Materias materia)
+      
+
+        public int AgregarMateria(Models.Materias materia)
         {
             try
             {
-                if (listMaterias.Count > 0)
+                /*if (listMaterias.Count > 0)
                 {
                     materia.idMateria = listMaterias.Last().idMateria + 1;
                 }
                 listMaterias.Add(materia);
+                */
+
+
+                applicationDBContext.Materias.Add(materia);
+                applicationDBContext.SaveChanges();
 
                 return materia.idMateria;
             }
@@ -71,16 +92,20 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                bool bandera = false;
-                int index = listMaterias.FindIndex(aux => aux.idMateria == idMateria);
+                /* bool bandera = false;
+                 int index = listMaterias.FindIndex(aux => aux.idMateria == idMateria);
 
-                if (index >= 0)
-                {
-                    listMaterias.RemoveAt(index);
-                    bandera = true;
-                }
+                 if (index >= 0)
+                 {
+                     listMaterias.RemoveAt(index);
+                     bandera = true;
+                 }*/
 
-                return bandera;
+                var item = applicationDBContext.Materias.SingleOrDefault(x => x.idMateria == idMateria);
+                applicationDBContext.Materias.Remove(item);
+                applicationDBContext.SaveChanges();
+
+                return true;
             }
             catch (Exception)
             {
@@ -89,11 +114,15 @@ namespace ADSProyect.Repositories
             }
         }
 
-        public Materias ObtenerMateriaPorID(int idMateria)
+      
+      
+
+        Models.Materias IMaterias.ObtenerMateriaPorID(int idMateria)
         {
+
             try
             {
-                var materia = listMaterias.FirstOrDefault(tmp => tmp.idMateria == idMateria);
+                var materia = applicationDBContext.Materias.SingleOrDefault(x => x.idMateria == idMateria);
 
                 return materia;
 
@@ -105,11 +134,11 @@ namespace ADSProyect.Repositories
             }
         }
 
-        public List<Materias> ObtenerMaterias()
+        List<Models.Materias> IMaterias.ObtenerMaterias()
         {
             try
             {
-                return listMaterias;
+                return applicationDBContext.Materias.ToList();
             }
             catch (Exception)
             {

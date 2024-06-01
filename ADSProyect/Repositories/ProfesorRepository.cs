@@ -1,11 +1,13 @@
-﻿using ADSProyect.Interfaces;
+﻿using ADSProyect.DB;
+using ADSProyect.Interfaces;
+using ADSProyect.Migrations;
 using ADSProyect.Models;
 
 namespace ADSProyect.Repositories
 {
     public class ProfesorRepository : IProfesor
     {
-        private List<Profesor> ListaProfesor = new List<Profesor>
+        /*private List<Profesor> ListaProfesor = new List<Profesor>
         {
             new Profesor
             {
@@ -36,44 +38,68 @@ namespace ADSProyect.Repositories
                 Email = "JorgeMirón@usonsonate.edu.sv"
             }
 
-        };
+        };*/
 
-        public int ActualizarProfesor(int IdProfesor, Profesor profesor)
+        private readonly ApplicationDbContext applicationDBContext;
+
+        public ProfesorRepository(ApplicationDbContext applicationDbContext)
         {
-            try
-            {
-                int bandera = 0;
-                int index = ListaProfesor.FindIndex(tmp => tmp.IdProfesor == IdProfesor);
-
-                if (index > 0)
-                {
-                    ListaProfesor[index] = profesor;
-                    bandera = IdProfesor;
-                }
-                else
-                {
-                    bandera = -1;
-                }
-
-                return bandera;
-
-            }catch (Exception )
-            {
-                throw;
-            }        
+            this.applicationDBContext = applicationDbContext;
         }
 
-        public int AgregarProfesor(Profesor profesor)
+     
+
+        public int ActualizarProfesor(int IdProfesor, Models.Profesor profesor)
         {
             try
             {
-                if (ListaProfesor.Count > 0)
-                {
-                    profesor.IdProfesor = ListaProfesor.Last().IdProfesor + 1;
-                }
-                ListaProfesor.Add(profesor);
+                /* int bandera = 0;
+                 int index = ListaProfesor.FindIndex(tmp => tmp.IdProfesor == IdProfesor);
 
+                 if (index > 0)
+                 {
+                     ListaProfesor[index] = profesor;
+                     bandera = IdProfesor;
+                 }
+                 else
+                 {
+                     bandera = -1;
+                 }
+
+                 return bandera;*/
+                var item = applicationDBContext.Profesor.SingleOrDefault(x => x.IdProfesor == IdProfesor);
+                applicationDBContext.Entry(item).CurrentValues.SetValues(profesor);
+                applicationDBContext.SaveChanges();
+
+                return IdProfesor;
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+       
+
+
+        public int AgregarProfesor(Models.Profesor profesor)
+        {
+
+            try
+            {
+                /* if (ListaProfesor.Count > 0)
+                 {
+                     profesor.IdProfesor = ListaProfesor.Last().IdProfesor + 1;
+                 }
+                 ListaProfesor.Add(profesor);
+
+                 */
+
+                applicationDBContext.Profesor.Add(profesor);
+                applicationDBContext.SaveChanges();
                 return profesor.IdProfesor;
+
             }
             catch (Exception)
             {
@@ -86,16 +112,20 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                bool bandera = false;
+                /*bool bandera = false;
                 int index = ListaProfesor.FindIndex(aux => aux.IdProfesor == IdProfesor);
 
                 if (index >= 0)
                 {
                     ListaProfesor.RemoveAt(index);
                     bandera = true;
-                }
+                }*/
+                var item = applicationDBContext.Profesor.SingleOrDefault(x => x.IdProfesor== IdProfesor);
+                applicationDBContext.Profesor.Remove(item);
+                applicationDBContext.SaveChanges();
 
-                return bandera;
+                return true;
+
             }
             catch (Exception)
             {
@@ -104,11 +134,13 @@ namespace ADSProyect.Repositories
             }
         }
 
-        public List<Profesor> ObtenerProfesor()
+       
+
+        List<Models.Profesor> IProfesor.ObtenerProfesor()
         {
             try
             {
-                return ListaProfesor;
+                return applicationDBContext.Profesor.ToList();
             }
             catch (Exception)
             {
@@ -117,13 +149,13 @@ namespace ADSProyect.Repositories
             }
         }
 
-        public Profesor ObtenerProfesorPorID(int IdProfesor)
+        Models.Profesor IProfesor.ObtenerProfesorPorID(int IdProfesor)
         {
             try
             {
-                var profe = ListaProfesor.FirstOrDefault(tmp => tmp.IdProfesor == IdProfesor);
+                var profesor = applicationDBContext.Profesor.SingleOrDefault(x => x.IdProfesor == IdProfesor);
 
-                return profe;
+                return profesor;
 
             }
             catch (Exception)

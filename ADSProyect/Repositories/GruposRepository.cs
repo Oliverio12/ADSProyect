@@ -1,47 +1,60 @@
-﻿using ADSProyect.Interfaces;
+﻿using ADSProyect.DB;
+using ADSProyect.Interfaces;
+using ADSProyect.Migrations;
 using ADSProyect.Models;
 
 namespace ADSProyect.Repositories
 {
     public class GruposRepository : IGrupos
     {
-        private List<Grupos> ListaGrupos = new List<Grupos>
-        {
-            new Grupos
-            { 
-                IdGrupo = 1,
-                IdCarrera = 1,
-                IdMateria = 1,
-                IdProfesor = 1,
-                Ciclo = 02,
-                Anio = 2024,
-            },
-            new Grupos
-            {
-                IdGrupo = 2,
-                IdCarrera = 3,
-                IdMateria = 1,
-                IdProfesor = 4,
-                Ciclo = 01,
-                Anio = 2023,
-            },
-            new Grupos
-            {
-                IdGrupo = 3,
-                IdCarrera = 2,
-                IdMateria = 3,
-                IdProfesor = 3,
-                Ciclo = 01,
-                Anio = 2022,
-            }
+        /* private List<Grupos> ListaGrupos = new List<Grupos>
+         {
+             new Grupos
+             { 
+                 IdGrupo = 1,
+                 IdCarrera = 1,
+                 IdMateria = 1,
+                 IdProfesor = 1,
+                 Ciclo = 02,
+                 Anio = 2024,
+             },
+             new Grupos
+             {
+                 IdGrupo = 2,
+                 IdCarrera = 3,
+                 IdMateria = 1,
+                 IdProfesor = 4,
+                 Ciclo = 01,
+                 Anio = 2023,
+             },
+             new Grupos
+             {
+                 IdGrupo = 3,
+                 IdCarrera = 2,
+                 IdMateria = 3,
+                 IdProfesor = 3,
+                 Ciclo = 01,
+                 Anio = 2022,
+             }
 
-        };
+         };*/
+
+        private readonly ApplicationDbContext applicationDBContext;
+
+        public GruposRepository(ApplicationDbContext applicationDbContext)
+        {
+            this.applicationDBContext = applicationDbContext;
+        }
         public int ActualizarGrupo(int IdGrupo, Grupos grupos)
         {
             try
             {
-                int indice = ListaGrupos.FindIndex(tmp => tmp.IdGrupo == IdGrupo);
-                ListaGrupos[indice] = grupos;
+                // int indice = ListaGrupos.FindIndex(tmp => tmp.IdGrupo == IdGrupo);
+                //ListaGrupos[indice] = grupos;
+
+                var item = applicationDBContext.Grupo.SingleOrDefault(x => x.IdGrupo == IdGrupo);
+                applicationDBContext.Entry(item).CurrentValues.SetValues(grupos);
+                applicationDBContext.SaveChanges();
 
                 return IdGrupo;
 
@@ -56,11 +69,15 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                if (ListaGrupos.Count > 0)
+                /*if (ListaGrupos.Count > 0)
                 {
                     grupos.IdGrupo = ListaGrupos.Last().IdGrupo + 1;
                 }
                 ListaGrupos.Add(grupos);
+                */
+
+                applicationDBContext.Grupo.Add(grupos);
+                applicationDBContext.SaveChanges();
 
                 return grupos.IdGrupo;
             }
@@ -75,16 +92,20 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                bool bandera = false;
+                /*bool bandera = false;
                 int index = ListaGrupos.FindIndex(aux => aux.IdGrupo == IdGrupo);
 
                 if (index >= 0)
                 {
                     ListaGrupos.RemoveAt(index);
                     bandera = true;
-                }
+                }*/
 
-                return bandera;
+                var item = applicationDBContext.Grupo.SingleOrDefault(x => x.IdGrupo == IdGrupo);
+                applicationDBContext.Grupo.Remove(item);
+                applicationDBContext.SaveChanges();
+
+                return true;
             }
             catch (Exception)
             {
@@ -97,7 +118,7 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                var grupo = ListaGrupos.FirstOrDefault(tmp => tmp.IdGrupo == IdGrupo);
+                var grupo = applicationDBContext.Grupo.SingleOrDefault(x => x.IdGrupo == IdGrupo);
 
                 return grupo;
 
@@ -113,7 +134,9 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                return ListaGrupos;
+                //return ListaGrupos;
+                return applicationDBContext.Grupo.ToList();
+
             }
             catch
             {

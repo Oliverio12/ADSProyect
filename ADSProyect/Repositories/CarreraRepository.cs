@@ -1,11 +1,12 @@
 ﻿
+using ADSProyect.DB;
 using ADSProyect.Interfaces;
 using ADSProyect.Models;
 namespace ADSProyect.Repositories
 {
     public class CarreraRepository : ICarrera
     {
-        private List<Carrera> lstCarrera = new List<Carrera>
+        /*private List<Carrera> lstCarrera = new List<Carrera>
         {
             new Carrera
             {
@@ -19,14 +20,24 @@ namespace ADSProyect.Repositories
                 Codigo = "I05001",
                 Nombre = "Ingenieria en Industrial"
             }
-        };
+        };*/
+
+        private readonly ApplicationDbContext applicationDbContext;
+        public CarreraRepository(ApplicationDbContext applicationDbContext)
+        {
+            this.applicationDbContext = applicationDbContext;
+        }
+
         public int ActualizarCarrera(int IdCarrera, Carrera carrera)
         {
             try
             {
-                int indice = lstCarrera.FindIndex(tmp => tmp.IdCarrera == IdCarrera);
+                //int indice = lstCarrera.FindIndex(tmp => tmp.IdCarrera == IdCarrera);
 
-                lstCarrera[indice] = carrera;
+                //lstCarrera[indice] = carrera;
+                var item = applicationDbContext.Carrera.SingleOrDefault(x => x.IdCarrera == IdCarrera);
+                applicationDbContext.Entry(item).CurrentValues.SetValues(carrera);
+                applicationDbContext.SaveChanges();
 
                 return IdCarrera;
 
@@ -43,12 +54,17 @@ namespace ADSProyect.Repositories
             {
                 //Validar si existen datos en la lista, de ser asi, tomaremos el ultimo ID
                 //y lo incrementaremos en una unidad
-                if (lstCarrera.Count > 0)
+                /*if (lstCarrera.Count > 0)
                 {
                     carrera.IdCarrera = lstCarrera.Last().IdCarrera + 1;
                 }
 
-                lstCarrera.Add(carrera);
+                lstCarrera.Add(carrera);*/
+
+                applicationDbContext.Carrera.Add(carrera);
+                applicationDbContext.SaveChanges();
+
+
                 return carrera.IdCarrera;
 
             }
@@ -63,9 +79,13 @@ namespace ADSProyect.Repositories
             try
             {
                 //Obtener el indice del objeto para eliminar
-                int indice = lstCarrera.FindIndex(tmp => tmp.IdCarrera == IdCarrera);
+                //int indice = lstCarrera.FindIndex(tmp => tmp.IdCarrera == IdCarrera);
                 //procedemos con la eliminacion
-                lstCarrera.RemoveAt(indice);
+                //lstCarrera.RemoveAt(indice);
+
+                var item = applicationDbContext.Carrera.SingleOrDefault(x => x.IdCarrera == IdCarrera);
+                applicationDbContext.Carrera.Remove(item);
+                applicationDbContext.SaveChanges();
 
                 return true;
 
@@ -79,7 +99,8 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                Carrera carrera = lstCarrera.FirstOrDefault(tmp => tmp.IdCarrera == IdCarrera);
+                //Carrera carrera = lstCarrera.FirstOrDefault(tmp => tmp.IdCarrera == IdCarrera);
+                var carrera = applicationDbContext.Carrera.SingleOrDefault(x => x.IdCarrera == IdCarrera);
 
                 return carrera;
 
@@ -94,7 +115,8 @@ namespace ADSProyect.Repositories
         {
             try
             {
-                return lstCarrera;
+                //return lstCarrera;
+                return applicationDbContext.Carrera.ToList();
             }
             catch (Exception e)
             {
